@@ -1,0 +1,80 @@
+.group{
+    margin-top: 85px;
+    overflow-x: hidden;
+}
+.addform{
+    width: 750px;
+    padding-left: 40px;
+}
+.center1{
+    margin-top: 100px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #2691d9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.topside{
+    margin-top: 10px;
+}
+.errortext1{
+    margin-left: 295px;
+    font-size: 15px;
+    font-weight: 500;
+    color: red;
+}
+.list{
+    width: 1519px;
+    margin-top: 82px;
+    margin-left: -514px;
+}
+.head{
+    height: 50px;
+}
+.td{
+    text-align: center;
+}
+.head th{
+    text-align: center;
+    padding-bottom: 13px;
+}
+.userlist{
+    width: 1520px;
+    margin-top: 82px;
+    margin-left: -514px;
+}
+.btn_nav{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 1545px;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+.edit{
+    cursor: pointer;
+}
+#detail{
+    width: 250px;
+}
+.order_detail{
+    width: 1530px;
+    margin-top: 90px;
+    margin-left: -515px;
+}
+.order_detail tr{
+    text-align: center;
+    justify-content: center;
+}
+.cancle{
+    color: #E21818;
+}

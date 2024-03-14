@@ -1,0 +1,138 @@
+/* header */
+#header-men{
+    margin-top: 100px;
+    background-image: url("./imgs/men-banner.jpg");
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    
+}
+#header-men h2,p{
+    color: #fff;
+}
+/* page_no */
+#page_no{
+    text-align: center;
+}
+#page_no button{
+    margin: 10px;
+    text-decoration:none;
+    background-color: #088178;
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.2S ease;
+}
+#page_no button:hover{
+    transition: 0.2S ease;
+    color: black;
+}
+
+#header-kid{
+    margin-top: 100px;
+    background-image: url("./imgs/men-banner.jpg");
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    
+}
+#header-kid h2,p{
+    color: #fff;
+}
+#header-women{
+    margin-top: 100px;
+    background-image: url("./imgs/men-banner.jpg");
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    
+}
+#header-women h2,p{
+    color: #fff;
+}
+
+
+.search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+  }
+  .input-search{
+    margin-left: -10px;
+    height: 40px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    background-color: transparent;
+    padding-right: 40px;
+    color:#000;
+    font-weight: 400;
+  }
+  .input-search::placeholder{
+    color:#000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 490;
+  }
+  .btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -5px;
+    right: 0px;
+    color:#191825 ;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid #000;
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid #000;
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  
+  #serach{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -50px;
+    height: 100px;
+  }
+  .search_back{
+    margin-top: 50px;
+    margin-left: 1380px;
+  }

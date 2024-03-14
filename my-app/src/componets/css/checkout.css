@@ -1,0 +1,52 @@
+.checkout{
+    margin-top: 120px;
+}
+
+.btn_checkout{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 18px;
+    background-color: transparent;
+    cursor: pointer;    
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid black;
+    outline: none;
+    transition: 0.2s;
+}
+.btn_checkout:hover{
+    color: white;
+    transition: 0.2s;
+    border: 1px solid #088178;
+    background-color:   #088178 ;
+}
+.btngroup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.prev_btn{
+    margin-left: 50px;
+    margin-top: -75px;
+}
+.next_btn{
+    margin-right: 50px;
+    margin-top: -75px;
+}
+
+.shipping_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px 500px ;
+}
+
+.select{
+    font-size: 15px;
+}
+.shipping_text{
+    margin-top: 30px;
+    margin-bottom: -25px;
+    text-align: center;
+    font-size: 30px;
+}
